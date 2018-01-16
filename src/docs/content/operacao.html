@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>TelePrompter - N@Moral Produções Audio Visuais</title>
+</head>
+<body>
+<h1>Operação</h1>
+<p>
+    O texto que será exibido no espelho do teleprompter, deve ser aberto ou digitado na janela de Ediçao.
+
+    Este software trabalha apenas com o texto no formato *.txt.
+
+    Sempre que for digitado ou alterado o texto na janela de edição o botão "Validar" ficará com a cor vermelha
+    alertando para que seja validado as informações após as alterações.
+
+    Após a Validação o texto pode ser visualizado na janela de Preview e tambem nas Tela do Espelho e a Tela do Monitor,
+    o botão "Validar" passa a exibir a cor verde informando que as alterações foram realizadas.
+
+    Na area de Edição, deve-se usar os delimitadores duas barras // para a divisão do texto em Laudas.
+
+    O primeiro trecho de texto antes das // , será identificado como Lauda 1 os trechos seguintes após as duas barras //
+    serão identificados como Lauda 2, Lauda 3, Lauda 4 até a quantidade de Laudas desejadas.
+
+    Após a validação, o Combo que faz a seleção de Laudas automaticamente será atualizado para a quantidade de Laudas e
+    pode-se seleciona-las para a janela de Preview.
+
+    Para acrescentar mais Laudas, basta digitar // duas barras e digitar o texto referente a esta Lauda e assim
+    sucessivamente para as Laudas seguintes.
+</p>
+
+<p>
+    Exemplo:
+
+    Texto da lauda 1//
+    Texto da lauda 2//
+    Texto da lauda 3//
+    Texto da lauda 4.... e assim sucessivamente
+</p>
+<p>
+    O texto correspondente a Lauda selecionada será exibido na tela de Preview com o tamanho do fonte usado na exibição
+    do Espelho.
+
+    Na janela de Edição tambem é possivel visualizar o texto com o fonte igual ao usado na tela do Espelho para
+    facilitar a visualização de como está exibido no Espelho, esta operação é possivel no menu editar e escolhendo-se o
+    fonte para a area de Edição.
+
+    Acrescentando-se Laudas ou alterando o conteúdo das mesmas o combo manterá a Lauda selecionada anteriormente, caso
+    se faça alguma remoção de Lauda o combo selecionará a primeira Lauda.
+
+    Maximizando-se a Tela do Monitor pode-se visualizar o conteudo da Tela do Espelho sem o espelhamento do texto, neste
+    caso a operação de rolagem pode ser feita através do mouse ou teclas:
+    Mouse clicando e arrastando para cima, rola texto acima.
+    Mouse clicando e arrastando para baixo, rola texto abaixo.
+    Girando a rodinha para cima aumenta a velocidade de rolagem.
+    Girando a rodinha para baixo diminui a velocidade de rolagem.
+    Um click rapido na rodinha sem deslocar o mouse para a rolagem.
+    Tecla seta acima rola o texto para cima.
+    Tecla seta abaixo rola o texto para baixo.
+    Tecla seta direita aumenta a velocidade de rolagem.
+    Tecla seta esquerda diminui a velocidade de rolagem.
+    Tecla End para a rolagem do texto.
+    Tecla Home posiciona o texto no inicio e reseta o cronometro.
+    O controle deslizante F.P.S controla a quantidade de Frames Por Segundo exibido, sendo que com uma quantia maior
+    melhora o flicking porém exige mais processamento da máquina, deve ser escolhido uma posição que melhor se ajuste a
+    maquina e a velocidade pretendida.
+</p>
+<p>
+    O cronometro é disparado toda vez que o texto rola para cima e resetado quando coloca-se o texto no inicio ou quando
+    o texto chega na posição todo abaixo.
+
+    Para destacar uma parte do texto de rolagem mudando-se a cor do mesmo siga os passos abaixo:
+    No menu Configurar escolhe-se a cor que se deseja para o Texto em Destaque, na janela de Edição em uma linha nova
+    ("Enter") colocar dois bicudos << seguido de "Enter", digite o Texto que estará em Destaque em uma linha nova
+    ("Enter") digite dois bicudos >> para finalizar o texto em Destaque.
+
+    Exemplo:
+
+    Este texto estara com as letras sem destaque.....
+    <<
+    Estas letras correspondentes ao texto em destaque estarão com a cor de destaque ate encontrar os dois bicudos que
+    indica o final do Destaque.....
+    >>
+    Este texto estara com as letras sem destaque......
+
+    Caso se queira exibir o texto no monitor do espelho sem estar invertido pode-se fazer através do menu configurar,
+    bem como as cores de fundo, fonte, marca de referencia e cronometro.
+</p>
+</body>
+</html>

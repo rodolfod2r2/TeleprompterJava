@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE helpset PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp HelpSet Version 2.0//EN"
+        "http://java.sun.com/products/javahelp/helpset_2_0.dtd">
+<helpset version="2.0">
+
+    <!--
+    Fornece o titulo do menu ajuda e informa qual arquivo XML esta com o mapa
+    dos arquivos HTML que vao ser acessados pelos Targets
+    -->
+    <title>Menu de ajuda</title>
+    <maps>
+        <homeID>bemVindo</homeID>
+        <mapref location="helpMap.xml"/>
+    </maps>
+
+    <!--
+    Exibe a aba da Tabela de conteudo TOC e indica qual arquivo XML esta com os
+    targets para os arquivos HTML da pasta content
+    -->
+    <view mergetype="javax.help.AppendMerge">
+        <name>TOC</name>
+        <label>Table of Contents</label>
+        <type>javax.help.TOCView</type>
+        <data>helpToc.xml</data>
+    </view>
+    <!--
+   Exibe a aba da Tabela de Indice TOC e indica qual arquivo XML esta com os
+   targets para os arquivos HTML da pasta content
+   -->
+
+
+    <!--
+        <view mergetype="javax.help.AppendMerge">
+            <name>Index</name>
+            <label>Index</label>
+            <type>javax.help.IndexView</type>
+            <data>helpIdx.xml</data>
+        </view>
+    -->
+
+    <!--
+
+    <view>
+        <name>Search</name>
+        <label>Procurar</label>
+        <type>javax.help.SearchView</type>
+        <data engine="com.sun.java.help.search.DefaultSearchEngine">JavaHelpSearch</data>
+    </view>
+
+-->
+
+
+    <!-- Comentarios     -->
+
+</helpset>
